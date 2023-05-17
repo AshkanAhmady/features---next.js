@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Products = () => {
+const ImageComponent = () => {
     // return ["1", "2", "3", "4"].map((path) => {
     //     return <div>
     //         {/* we can use (placeholder&blurDataURL) to discard layoutShift */}
@@ -41,4 +41,4 @@ const Products = () => {
     )
 }
 
-export default Products;
+export default ImageComponent;
