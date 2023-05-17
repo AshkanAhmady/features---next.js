@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 
 const App = ({ Component, pageProps }) => {
   return (
@@ -8,6 +9,7 @@ const App = ({ Component, pageProps }) => {
         <meta name="description" content="description of Head page" />
       </Head>
       <Component {...pageProps} />
+      <Script src="https://example.com/script.js" strategy="afterInteractive" />
     </>
   )
 };
